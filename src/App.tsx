@@ -14,7 +14,7 @@ class App extends React.Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          <Demo greeting="Hallo" />
+          <Demo countBy={3} />
         </p>
       </div>
     );
